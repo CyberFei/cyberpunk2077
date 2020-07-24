@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Progress />
-    <Clock :target="new Date(2020, 8, 17)" />
+    <Clock :target="new Date(2020, 10, 19)" />
   </div>
 </template>
 
