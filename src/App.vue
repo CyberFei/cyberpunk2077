@@ -1,40 +1,40 @@
 <template>
   <div id="app">
     <Progress />
-    <Clock :target="new Date(2020, 10, 19)" />
+    <Clock :target="new Date(2020, 11, 10)" />
   </div>
 </template>
 
 <script>
-import Progress from "./components/Progress";
-import Clock from "./components/Clock";
+import Progress from './components/Progress';
+import Clock from './components/Clock';
 
 export default {
-  name: "App",
-  components: { Progress, Clock }
+  name: 'App',
+  components: { Progress, Clock },
 };
 </script>
 
 <style lang="less">
 @font-face {
-  font-family: "BlenderPro";
+  font-family: 'BlenderPro';
   font-weight: normal;
-  src: url(https://cyberpunk.gog-statics.com/fonts/BlenderPro-Book.woff2)
-    format("woff2");
+  src: url(https://cyberfei.gitee.io/static/fonts/BlenderPro-Book.woff2)
+    format('woff2');
 }
 @font-face {
-  font-family: "BlenderPro";
+  font-family: 'BlenderPro';
   font-weight: bold;
-  src: url(https://cyberpunk.gog-statics.com/fonts/BlenderPro-Bold.woff2)
-    format("woff2");
+  src: url(https://cyberfei.gitee.io/static/fonts/BlenderPro-Bold.woff2)
+    format('woff2');
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  font-family: "BlenderPro";
+  font-family: 'BlenderPro';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   // text-align: right;
